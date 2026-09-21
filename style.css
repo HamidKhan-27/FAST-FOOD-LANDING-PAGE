@@ -136,3 +136,149 @@ header nav {
   color: white;
   font-weight: bold;
 }
+
+.third-section {
+  background-color: #0d0d0d;
+}
+
+.third-container {
+  width: min(90%, 1200px);
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.third-container h1 {
+  color: white;
+  text-align: center;
+  font-size: 38px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #191919;
+  padding: 20px;
+  max-width: 370px;
+  width: 100%;
+  height: 440px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card-foot h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 3.2;
+}
+
+.card-foot p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.price-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.price-sec h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.see-btn {
+  padding: 10px 20px;
+  margin: 10px 46%;
+}
+
+.fourth-section {
+  background-color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.top-section {
+  margin: 50px;
+}
+
+.top-section h1 {
+  color: white;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+}
+
+.states-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 100px;
+}
+
+.states h4 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.states p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.bottom-sec-content {
+  width: min(90%, 1200px);
+  margin: auto;
+}
+
+.bottom-sec-content h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.2;
+}
+
+.bottom-sec-content p {
+  color: #ffffff;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bec-fran {
+  margin: 40px 41%;
+}
